@@ -11,7 +11,7 @@ const toggleMenu = (event) => {
         event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
     } else {
         event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
-        }
+    }
 }
 
 btnMobile.addEventListener('click', toggleMenu);
