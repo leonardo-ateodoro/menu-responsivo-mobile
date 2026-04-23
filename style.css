@@ -5,13 +5,13 @@ ul {
 }
 
 a {
-    color: black;
+    color: #f0eee9;
     text-decoration: none;
     font-family: sans-serif;
 }
 
 a:hover {
-    background: rgba(0,0,0,0.05);
+    background: #dcdcdc
 }
 
 #logo {
@@ -27,7 +27,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #d2b48c;
 }
 
 #menu {
@@ -53,7 +53,7 @@ a:hover {
         width: 100%;
         top: 70px;
         right: 0px;
-        background-color: #e7e7e7;
+        background-color: #A9C0A6;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -70,7 +70,7 @@ a:hover {
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0,0,0,0.05);
+        border-bottom: 2px solid #041c4d;
 
     }
 
